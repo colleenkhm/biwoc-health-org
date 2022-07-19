@@ -2,10 +2,8 @@
   "name": "biwoc-health-org",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://colleenkhm.github.io/biwoc-health-org",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.3.0",
-    "@testing-library/user-event": "^13.5.0",
     "react": "^17.0.2",
     "react-bootstrap": "^2.4.0",
     "react-dom": "^17.0.2",

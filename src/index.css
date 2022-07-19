@@ -95,6 +95,7 @@ footer {
 .announcement-banner a:hover {
   color: var(--grayish-purple);
 }
+
 .hero {
   background-color: var(--taupe);
   width: 100%;
@@ -105,7 +106,7 @@ footer {
 }
 
 .option-container {
-  margin: 70px;
+  margin: 60px;
   width: 100%;
   align-items: center;
 }
