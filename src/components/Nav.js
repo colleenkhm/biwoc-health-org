@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
+import biwocLogo from '../assets/images/biwoc-health-logo.jpg'
 import About from './About';
 import Resources from './Resources';
 import Contact from './Contact';
@@ -11,7 +12,9 @@ function Nav() {
     <Router>
       <header className="flex-row px-1">
         <h1>
-          <Link to="/">BIWOC Health</Link>
+          <Link to="/">
+          <img className="logo center-align" src={biwocLogo} alt="BIWOC Health Logo"></img>
+          </Link>
         </h1>
         <nav>
           <ul className="flex-row nav-bar">
