@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Link, Routes, Route, Navigate } from "react-router-dom";
 import biwocLogo from '../assets/images/biwoc-health-logo.jpg'
 import About from './About';
 import Resources from './Resources';
@@ -43,13 +43,18 @@ function Nav() {
       </header>
       <Routes>
         <Route 
-        exact path="/"
-        element={<Home/>}
+        path="*"
+        element={<Navigate to="/home"/>}
         >
         </Route>
         <Route 
         path="/about"
         element={<About/>}
+        >
+        </Route>
+        <Route 
+        path="/home"
+        element={<Home/>}
         >
         </Route>
         <Route 
