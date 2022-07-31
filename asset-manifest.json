@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/biwoc-health-org/static/css/main.71f6dba3.css",
+    "main.js": "/biwoc-health-org/static/js/main.7336ca30.js",
+    "static/js/787.0e712d93.chunk.js": "/biwoc-health-org/static/js/787.0e712d93.chunk.js",
+    "static/media/biwoc-health-logo.jpg": "/biwoc-health-org/static/media/biwoc-health-logo.80a1c289ececbfc2fb0c.jpg",
+    "index.html": "/biwoc-health-org/index.html",
+    "main.71f6dba3.css.map": "/biwoc-health-org/static/css/main.71f6dba3.css.map",
+    "main.7336ca30.js.map": "/biwoc-health-org/static/js/main.7336ca30.js.map",
+    "787.0e712d93.chunk.js.map": "/biwoc-health-org/static/js/787.0e712d93.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71f6dba3.css",
+    "static/js/main.7336ca30.js"
+  ]
+}
