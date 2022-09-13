@@ -240,6 +240,31 @@ textarea {
   font-size: 17px;
 }
 
+.resources-container {
+    text-align: center;
+}
+
+.tell-story-container {
+    text-align: center;
+}
+
+.description {
+    margin: 10px;
+}
+
+.sub-description {
+    margin: 10px;
+}
+.story-link {
+    font-size: 25px;
+    color: var(--light-purple);
+    background-color: var(--grayish-purple);
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
 .find-us {
   width: 100%;
   margin: 0 auto;
