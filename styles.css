@@ -406,3 +406,9 @@ textarea {
   text-align: center;
   color: var(--grayish-purple);
 }
+
+@media screen and (max-width: 800px) {
+    .biwocNav a {
+        display: block;
+    }
+}
